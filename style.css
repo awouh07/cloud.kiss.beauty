@@ -45,7 +45,7 @@ nav ul {
 }
 
 .nav a.active {
-    background-color: white;
+    background-color: #d695a5;
     color: #d695a5;
     font-weight: bold;
 }
