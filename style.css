@@ -333,8 +333,8 @@ tr:hover {
 }
 
 .gallery-item img {
-  width: 768px;
-  height: 1376px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
