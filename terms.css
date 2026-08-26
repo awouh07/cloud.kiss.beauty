@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --pink-dark: #c2185b;
+    --pink-medium: #ec407a;
+    --pink-light: #f8bbd0;
+    --pink-pale: #fce4ec;
+    --pink-sky: #f48fb1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--pink-pale);
+    color: #555;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+
+    background: linear-gradient(
+        135deg,
+        var(--pink-medium),
+        var(--pink-sky)
+    );
+
+    color: white;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* Main Container */
+
+.terms-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    box-shadow: 0 8px 25px rgba(194, 24, 91, 0.15);
+}
+
+.terms-container h2 {
+    text-align: center;
+
+    color: var(--pink-dark);
+
+    font-size: 30px;
+
+    margin-bottom: 15px;
+}
+
+.intro {
+    text-align: center;
+
+    color: #777;
+
+    margin-bottom: 30px;
+
+    line-height: 1.7;
+}
+
+/* Sections */
+
+section {
+    margin-bottom: 25px;
+}
+
+section h3 {
+    color: var(--pink-dark);
+
+    font-size: 18px;
+
+    margin-bottom: 8px;
+}
+
+section p {
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    color: #666;
+}
+
+/* Back Button */
+
+.back-button {
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+.back-button a {
+    display: inline-block;
+
+    padding: 12px 25px;
+
+    background: var(--pink-medium);
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.back-button a:hover {
+    background: var(--pink-dark);
+
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+
+@media (max-width: 700px) {
+
+    .terms-container {
+        width: 90%;
+        padding: 25px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .terms-container h2 {
+        font-size: 25px;
+    }
+}
