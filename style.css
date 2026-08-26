@@ -697,33 +697,6 @@ button:hover {
 }
 
 
-/* =========================
-   LOGIN LINK
-========================= */
-
-.login {
-    text-align: center;
-
-    margin-top: 20px;
-
-    color: #777;
-
-    font-size: 13px;
-}
-
-
-.login a {
-    color: var(--pink-dark);
-
-    font-weight: 600;
-
-    text-decoration: none;
-}
-
-
-.login a:hover {
-    color: var(--pink-medium);
-}
 
 
 /* =========================
