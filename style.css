@@ -45,13 +45,13 @@ nav ul {
 }
 
 .nav a.active {
-    background-color: #f48fb1;
+    background-color: white;
     color: #f48fb1;
     font-weight: bold;
 }
 
 nav a {
-  color: white;
+  color: #f48fb1;
   text-decoration: none;
   font-weight: 500;
   padding: 0.5rem 1rem;
