@@ -483,59 +483,40 @@ footer {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     font-family: 'Poppins', sans-serif;
 }
 
 
 body {
     min-height: 100vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     background: var(--pink-pale);
 }
 
 
-/* =========================
-   SIGN UP CONTAINER
-========================= */
 
 .signup-container {
     width: 900px;
     min-height: 570px;
-
     display: flex;
-
     background: white;
-
     border-radius: 25px;
-
     overflow: hidden;
-
     box-shadow: 0 10px 35px rgba(194, 24, 91, 0.20);
 }
 
 
-/* =========================
-   LEFT SIDE
-========================= */
 
 .signup-left {
     width: 45%;
-
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
-
     text-align: center;
-
     padding: 40px;
-
     background: linear-gradient(
         135deg,
         var(--pink-medium),
@@ -548,32 +529,25 @@ body {
 
 .cloud {
     font-size: 80px;
-
     margin-bottom: 20px;
-
     animation: float 3s ease-in-out infinite;
 }
 
 
 .signup-left h1 {
     font-size: 35px;
-
     margin-bottom: 15px;
 }
 
 
 .signup-left p {
     max-width: 300px;
-
     font-size: 15px;
-
     line-height: 1.7;
 }
 
 
-/* =========================
-   CLOUD ANIMATION
-========================= */
+/* CLOUD ANIMATION */
 
 @keyframes float {
 
@@ -592,9 +566,7 @@ body {
 }
 
 
-/* =========================
-   RIGHT SIDE
-========================= */
+
 
 .signup-right {
     width: 55%;
@@ -621,9 +593,7 @@ body {
 }
 
 
-/* =========================
-   INPUTS
-========================= */
+
 
 .input-group {
     margin-bottom: 15px;
@@ -645,31 +615,22 @@ body {
 
 .input-group input {
     width: 100%;
-
     padding: 11px 14px;
-
     border: 1px solid var(--pink-light);
-
     border-radius: 10px;
-
     outline: none;
-
     font-size: 13px;
-
     transition: 0.3s;
 }
 
 
 .input-group input:focus {
     border-color: var(--pink-medium);
-
     box-shadow: 0 0 0 3px var(--pink-pale);
 }
 
 
-/* =========================
-   TERMS
-========================= */
+
 
 .terms {
     display: flex;
