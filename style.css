@@ -462,13 +462,14 @@ footer {
   }
 
 
+/*signup*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
-
-  
-/**signup**/
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* =========================
+   CLOUD KISS BEAUTY COLORS
+========================= */
 
 :root {
     --pink-dark: #c2185b;
@@ -478,15 +479,23 @@ footer {
     --pink-sky: #f48fb1;
 }
 
+
+/* =========================
+   GENERAL
+========================= */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
     font-family: 'Poppins', sans-serif;
 }
 
+
 body {
     min-height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -494,7 +503,10 @@ body {
     background: var(--pink-pale);
 }
 
-/* Main Container */
+
+/* =========================
+   SIGN UP CONTAINER
+========================= */
 
 .signup-container {
     width: 900px;
@@ -511,13 +523,17 @@ body {
     box-shadow: 0 10px 35px rgba(194, 24, 91, 0.20);
 }
 
-/* Left Side */
+
+/* =========================
+   LEFT SIDE
+========================= */
 
 .signup-left {
     width: 45%;
 
     display: flex;
     flex-direction: column;
+
     justify-content: center;
     align-items: center;
 
@@ -534,26 +550,35 @@ body {
     color: white;
 }
 
+
 .cloud {
     font-size: 80px;
+
     margin-bottom: 20px;
 
     animation: float 3s ease-in-out infinite;
 }
 
+
 .signup-left h1 {
     font-size: 35px;
+
     margin-bottom: 15px;
 }
 
-.signup-left p {
-    font-size: 15px;
-    line-height: 1.7;
 
+.signup-left p {
     max-width: 300px;
+
+    font-size: 15px;
+
+    line-height: 1.7;
 }
 
-/* Cloud Animation */
+
+/* =========================
+   CLOUD ANIMATION
+========================= */
 
 @keyframes float {
 
@@ -571,13 +596,17 @@ body {
 
 }
 
-/* Right Side */
+
+/* =========================
+   RIGHT SIDE
+========================= */
 
 .signup-right {
     width: 55%;
 
     padding: 40px 50px;
 }
+
 
 .signup-right h2 {
     color: var(--pink-dark);
@@ -587,6 +616,7 @@ body {
     margin-bottom: 5px;
 }
 
+
 .subtitle {
     color: #888;
 
@@ -595,11 +625,15 @@ body {
     margin-bottom: 25px;
 }
 
-/* Input Groups */
+
+/* =========================
+   INPUTS
+========================= */
 
 .input-group {
     margin-bottom: 15px;
 }
+
 
 .input-group label {
     display: block;
@@ -612,6 +646,7 @@ body {
 
     margin-bottom: 6px;
 }
+
 
 .input-group input {
     width: 100%;
@@ -629,17 +664,23 @@ body {
     transition: 0.3s;
 }
 
+
 .input-group input:focus {
     border-color: var(--pink-medium);
 
     box-shadow: 0 0 0 3px var(--pink-pale);
 }
 
-/* Terms */
+
+/* =========================
+   TERMS
+========================= */
 
 .terms {
     display: flex;
+
     align-items: center;
+
     gap: 8px;
 
     margin: 15px 0 20px;
@@ -649,9 +690,11 @@ body {
     color: #777;
 }
 
+
 .terms input {
     accent-color: var(--pink-medium);
 }
+
 
 .terms a {
     color: var(--pink-dark);
@@ -661,7 +704,10 @@ body {
     font-weight: 600;
 }
 
-/* Button */
+
+/* =========================
+   CREATE ACCOUNT BUTTON
+========================= */
 
 button {
     width: 100%;
@@ -685,6 +731,7 @@ button {
     transition: 0.3s;
 }
 
+
 button:hover {
     background: var(--pink-dark);
 
@@ -693,7 +740,10 @@ button:hover {
     box-shadow: 0 5px 15px rgba(194, 24, 91, 0.25);
 }
 
-/* Login */
+
+/* =========================
+   LOGIN LINK
+========================= */
 
 .login {
     text-align: center;
@@ -705,6 +755,7 @@ button:hover {
     font-size: 13px;
 }
 
+
 .login a {
     color: var(--pink-dark);
 
@@ -713,11 +764,15 @@ button:hover {
     text-decoration: none;
 }
 
+
 .login a:hover {
     color: var(--pink-medium);
 }
 
-/* Responsive Design */
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
 
 @media (max-width: 750px) {
 
@@ -741,3 +796,6 @@ button:hover {
     }
 
 }
+
+
+  
