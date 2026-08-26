@@ -338,12 +338,7 @@ tr:hover {
   object-fit: cover;
 }
 
-.gallery-item p {
-  padding: 0.8rem;
-  text-align: center;
-  color: var(--pink-dark);
-  font-weight: 500;
-}
+
 
 .video-container {
   position: relative;
