@@ -44,7 +44,7 @@ nav ul {
   margin-top: 0.8rem;
 }
 
-.nav ul.active {
+.nav a.active {
     background-color: white;
     color: #d695a5;
     font-weight: bold;
