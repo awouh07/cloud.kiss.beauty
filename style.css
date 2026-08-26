@@ -467,9 +467,7 @@ footer {
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
-/* =========================
-   CLOUD KISS BEAUTY COLORS
-========================= */
+
 
 :root {
     --pink-dark: #c2185b;
@@ -480,9 +478,6 @@ footer {
 }
 
 
-/* =========================
-   GENERAL
-========================= */
 
 * {
     margin: 0;
