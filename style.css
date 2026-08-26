@@ -51,7 +51,7 @@ nav ul {
 }
 
 nav a {
-  color: #f48fb1;
+  color:var(--pink-sky);
   text-decoration: none;
   font-weight: 500;
   padding: 0.5rem 1rem;
